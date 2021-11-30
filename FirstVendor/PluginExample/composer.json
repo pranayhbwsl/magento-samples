@@ -1,0 +1,23 @@
+{
+    "name": "FirstVendor/module-PluginExample",
+    "description": "",
+    "license": [
+        "BSD-3-Clause"
+    ],
+    "version":"0.0.1",
+    "config": {
+        "sort-packages": true
+    },
+    "require": {
+        "magento/framework": "103.0.*"
+    },
+    "type": "magento2-module",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "FirstVendor\\PluginExample\\": ""
+        }
+    }
+}
