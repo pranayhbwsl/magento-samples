@@ -1,0 +1,17 @@
+{
+  "name": "tvendor/tmodule",
+  "description": "tvendor tmodule extension for Magento 2. It is used as example how to create custom router.",
+  "type": "magento2-module",
+  "version": "dev-master",
+  "license": [
+    "OSL-3.0"
+  ],
+  "extra": {
+    "map": [
+      [
+        "*",
+        "Tvendor/Tmodule"
+      ]
+    ]
+  }
+}
